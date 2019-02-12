@@ -13,13 +13,13 @@ class Footer extends Component {
                 <h6>Get started</h6>
                 <ul>
                   <li>
-                    <Link to="/signup">Home</Link>
+                    <Link to="/home">Home</Link>
                   </li>
                   <li>
                     <Link to="/signup">Sign up</Link>
                   </li>
                   <li>
-                    <Link to="/signup">Downloads</Link>
+                    <Link to="/courses">Downloads</Link>
                   </li>
                 </ul>
               </div>
@@ -27,10 +27,10 @@ class Footer extends Component {
                 <h6>About us</h6>
                 <ul>
                   <li>
-                    <Link to="/signup">Company Information</Link>
+                    <Link to="/about">Company Information</Link>
                   </li>
                   <li>
-                    <Link to="/signup">Contact us</Link>
+                    <Link to="/contact">Contact us</Link>
                   </li>
                   <li>
                     <Link to="/signup">Reviews</Link>
@@ -41,10 +41,10 @@ class Footer extends Component {
                 <h6>Support</h6>
                 <ul>
                   <li>
-                    <Link to="/signup">FAQ</Link>
+                    <Link to="/faqs">FAQ</Link>
                   </li>
                   <li>
-                    <Link to="/signup">Help desk</Link>
+                    <Link to="/contact">Help desk</Link>
                   </li>
                   <li>
                     <Link to="/signup">Forums</Link>

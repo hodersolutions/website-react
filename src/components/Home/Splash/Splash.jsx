@@ -22,7 +22,7 @@ class Splash extends Component {
         className="container-fluid splash-screen"
       >
         <p className="display-4 splash-message">
-          Welcome to <span className="text-primary">H O D E R</span>
+          Welcome to <span className="text-primary">H O D E</span>
         </p>
       </div>
     );
