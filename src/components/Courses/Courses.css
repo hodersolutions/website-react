@@ -1,0 +1,21 @@
+.row-height {
+    margin-top: 15px;
+} 
+
+.row {
+	text-align: left!important;
+}
+
+.content {
+	margin-top: 50px;
+	margin-bottom: 150px;	
+}
+
+.course-name {
+	width: 75%;
+}
+
+.course-table {
+	width: 70%;
+	margin-left: 20px; 
+}

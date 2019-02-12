@@ -10,7 +10,7 @@ class Contact extends Component {
             <div className="display-4">Contact Us</div>
           </div>
           <div className="row row-height">
-            <div>• Ph: +91-9999999999.</div>
+            <div>• Ph: +91-8328530875.</div>
           </div>
         </div>
       </div>

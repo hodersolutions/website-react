@@ -11,7 +11,7 @@ class Header extends Component {
             <Link to="/" className="navbar-brand">
               <img
                 src={require("../../static/images/logo/logo.png")}
-                alt="hoder.in"
+                alt="Hoder"
                 className="logo"
               />
             </Link>
@@ -31,6 +31,16 @@ class Header extends Component {
                 <li className="nav-item">
                   <Link to="/" className="nav-item nav-link">
                     <span className="icon-text">HOME</span>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/courses" className="nav-item nav-link">
+                    <span className="icon-text">COURSES</span>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/products" className="nav-item nav-link">
+                    <span className="icon-text">PRODUCTS</span>
                   </Link>
                 </li>
                 <li className="nav-item">

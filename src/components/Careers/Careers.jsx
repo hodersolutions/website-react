@@ -12,7 +12,7 @@ class Careers extends Component {
           <div className="row row-height">
             <div>
               • Please mail us your updated CV at{" "}
-              <a href="mailto:careers@hoder.in">careers@hoder.in</a>
+              <a href="mailto:hodersolutions@gmail.com">hodersolutions@gmail.com</a>
             </div>
           </div>
         </div>

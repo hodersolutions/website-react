@@ -79,7 +79,7 @@ class Footer extends Component {
             </Link>
           </div>
           <div className="footer-copyright">
-            <p>© 2019 Copyright hoder.in </p>
+            <p>© 2019 Copyright www.hoder.in </p>
           </div>
         </footer>
       </div>
