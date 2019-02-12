@@ -1,5 +1,12 @@
 import React, { Component } from "react";
 import "./Courses.css";
+import POPDF from '../../data/courses/Project_Oriented.pdf';
+import WEBPDF from '../../data/courses/Web.pdf';
+import SQLPDF from '../../data/courses/SQL.pdf';
+import FLASKPDF from '../../data/courses/Flask.pdf';
+import PYPDF from '../../data/courses/Python.pdf';
+import CLIPDF from '../../data/courses/Client_side.pdf';
+import AGPDF from '../../data/courses/Agile.pdf';
 
 class Courses extends Component {
   render() {
@@ -16,7 +23,7 @@ class Courses extends Component {
           </tr>
           <tr>
             <td class="course-name">
-              <a href='/src/data/courses/Project_Oriented.pdf'>
+              <a href={POPDF} target = "_blank">
                 Project oriented training
               </a>
             </td>
@@ -26,7 +33,7 @@ class Courses extends Component {
           </tr>
           <tr>
             <td class="course-name">
-              <a href='/../data/courses/Web.pdf'>
+              <a href={WEBPDF} target = "_blank">
                 Web concepts
               </a>
             </td>
@@ -36,7 +43,7 @@ class Courses extends Component {
           </tr>
           <tr>
             <td class="course-name">
-              <a href='/../../data/courses/SQL.pdf'>
+              <a href={SQLPDF} target = "_blank">
                 Structured Query Language (SQL)
               </a>
             </td>
@@ -46,7 +53,7 @@ class Courses extends Component {
           </tr>
           <tr>
             <td class="course-name">
-              <a href='/data/courses/Client_side.pdf'>
+              <a href={CLIPDF} target = "_blank">
                 Client-side programming
               </a>
             </td>
@@ -56,7 +63,7 @@ class Courses extends Component {
           </tr>
           <tr>
             <td class="course-name">
-              <a href='../../data/courses/Python.pdf'>
+              <a href={PYPDF} target = "_blank">
                 Programming languages - Python
               </a>
             </td>
@@ -66,7 +73,7 @@ class Courses extends Component {
           </tr>
           <tr>
             <td class="course-name">
-              <a href='../../data/courses/Flask.pdf'>
+              <a href={FLASKPDF} target = "_blank">
                 Web frameworks - Flask
               </a>
             </td>
@@ -76,7 +83,7 @@ class Courses extends Component {
           </tr>
           <tr>
             <td class="course-name">
-              <a href='../../data/courses/Agile.pdf'>
+              <a href={AGPDF} target = "_blank">
                 Software Development Life Cycle (SDLC) using AGILE Model
               </a>
             </td>
