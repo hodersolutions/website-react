@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./SignUp.css";
+import {withRouter} from 'react-router-dom';
 
 class SignUp extends Component {
   constructor(props) {
@@ -19,8 +20,21 @@ class SignUp extends Component {
     });
   }
   onSubmit(e) {
-    e.preventDefault();
-    console.log(this.state);
+        var myHeaders = new Headers();
+        var data = new FormData();
+        data.append("body", JSON.stringify(this.state))
+        myHeaders.append('Content-Type', 'application/form-data');
+        fetch('http://hoderqbapi.herokuapp.com/api/v1/users', {
+            'method': 'POST',
+            'mode': 'cors',
+            'header':myHeaders,
+            'body': data
+        })
+        .then((response) => 
+        { 
+        console.log(response);
+        });
+    this.props.history.push('/signin');
   }
   render() {
     return (
