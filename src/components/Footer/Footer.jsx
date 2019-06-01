@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+﻿import React, { Component } from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 
@@ -15,10 +15,10 @@ class Footer extends Component {
                   <li>
                     <Link to="/home">Home</Link>
                   </li>
-                  <li>
+                  {/*<li>
                     <Link to="/signup">Sign up</Link>
                   </li>
-                  <li>
+                  */}<li>
                     <Link to="/courses">Downloads</Link>
                   </li>
                 </ul>

@@ -59,7 +59,7 @@ class Header extends Component {
                   </Link>
                 </li>
               </ul>
-              <ul className="navbar-nav">
+              {/*<ul className="navbar-nav">
                 <li className="nav-item">
                   <Link to="/signin" className="nav-item nav-link">
                     <img
@@ -80,7 +80,7 @@ class Header extends Component {
                     <span className="icon-text">JOIN US</span>
                   </Link>
                 </li>
-              </ul>
+              </ul>*/}
             </div>
           </div>
         </nav>
