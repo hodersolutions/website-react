@@ -23,8 +23,17 @@ formSubmit = (e) => {
       email: this.state.email,
       message: this.state.message
   }
-  
-  axios.post('http://hodermail.herokuapp.com/api/v1', data)
+
+  axios('https://hodermail.herokuapp.com/api/v1', {
+		method: 'POST',
+		mode: 'no-cors',
+		headers: {
+			'Access-Control-Allow-Origin': '*',
+			Accept: 'application/json',
+			'Content-Type': 'application/json',
+		},
+		data: data,
+		crossdomain: true})
   .then( res => {
       this.setState({ sent: true }, this.resetForm())
   })
