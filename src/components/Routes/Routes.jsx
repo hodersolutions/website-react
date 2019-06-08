@@ -7,8 +7,8 @@ import Contact from "../Contact/Contact";
 import Careers from "../Careers/Careers";
 import Courses from "../Courses/Courses";
 import Products from "../Products/Products";
-import SignIn from "../SignIn/SignIn";
-import SignUp from "../SignUp/SignUp";
+{/*import SignIn from "../SignIn/SignIn";
+import SignUp from "../SignUp/SignUp";*/}
 
 const Routes = () => (
   <Switch>
@@ -18,8 +18,8 @@ const Routes = () => (
     <Route path="/products" component={Products} />
     <Route path="/contact" component={Contact} />
     <Route path="/careers" component={Careers} />
-    <Route path="/signin" component={SignIn} />
-    <Route path="/signup" component={SignUp} />
+    {/* <Route path="/signin" component={SignIn} />
+    <Route path="/signup" component={SignUp} /> */}
   </Switch>
 );
 
