@@ -18,7 +18,7 @@ formSubmit = (e) => {
       buttonText: '...sending'
   })
 
-  let data = {
+  let msg_data = {
       name: this.state.name,
       email: this.state.email,
       message: this.state.message
@@ -32,7 +32,7 @@ formSubmit = (e) => {
 			Accept: 'application/json',
 			'Content-Type': 'application/json',
 		},
-		data: data,
+		data: msg_data,
 		crossdomain: true})
   .then( res => {
       this.setState({ sent: true }, this.resetForm())
